@@ -9,12 +9,21 @@
 </head>
 
 <body>
-    <fieldset>
-        <form>
-            <p>Hello, world.</p>
-            <input type="text" />
-            <button type="submit">Submit Form</button>
-        </form>
+    <h1>This is a form</h1>
+    <fieldset class="outerFieldset">
+        <legend></legend>
+        <h2></h2>
+        <p></p>
+        <label for="date">Date<input type="date" /></label>
+        <label for="email">Email<input type="email" /></label>
+        <!-- <input type="text" /> -->
+        <!-- <button type="submit">Submit Form</button> -->
+        <fieldset class="innerFieldset">
+            <legend>button types</legend>
+            <label for="text">Button<input type="button" value="Foo Bar"></label>
+            <label for="checkbox">Checkbox<input type="checkbox" /></label>
+        </fieldset>
+    </form>
     </fieldset>
 </body>
 
