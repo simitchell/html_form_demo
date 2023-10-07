@@ -9,10 +9,19 @@ html {
     margin: auto;
 }
 
+body {
+    background-color: #534D41;
+    color: #F0CEA0;
+}
+
+h1, h2, p {
+}
+
 form {
+    max-width: inherit;
     display: flex;
     flex-direction: column;
-    
+    color: #F0CEA0;
 }
 
 input {
@@ -20,11 +29,31 @@ input {
     width: 25ch;
 }
 
-button {
-    width: fit-content; 
+input[type="button"] {
+    width: 200px;
+}
+
+input[type="reset"] {
+    width: 200px;
+}
+
+input[type="submit"] {
+    width: 200px;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
+    border-color: #F3A712;
 }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
